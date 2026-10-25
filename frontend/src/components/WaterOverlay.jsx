@@ -1,0 +1,1 @@
+import{useEffect,useRef}from'react';import{createWaterRipple}from'../effects/waterRipple';export default function WaterOverlay(){const ref=useRef(null);useEffect(()=>createWaterRipple(ref.current),[]);return <canvas ref={ref} className="water-overlay" aria-hidden="true"/>}

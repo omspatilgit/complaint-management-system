@@ -1,0 +1,1 @@
+import{CheckCircle2}from'lucide-react';export default function Toast({message}){return message?<div className="toast"><CheckCircle2 size={19}/>{message}</div>:null}
